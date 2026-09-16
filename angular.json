@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pa-sprint": {
+    "pa-service-reference": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -78,10 +78,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "pa-sprint:build:production"
+              "buildTarget": "pa-service-reference:build:production"
             },
             "development": {
-              "buildTarget": "pa-sprint:build:development"
+              "buildTarget": "pa-service-reference:build:development"
             }
           },
           "defaultConfiguration": "development"
