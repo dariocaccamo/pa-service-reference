@@ -99,9 +99,30 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/bootstrap-italia/",
+                "output": "/bootstrap-italia/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/design-angular-kit/assets/i18n",
+                "output": "/bootstrap-italia/i18n/"
               }
             ],
-            "styles": ["src/styles.scss"]
+            "styles": ["src/styles.scss"],
+            "stylePreprocessorOptions": {
+              "sass": {
+                "silenceDeprecations": [
+                  "import",
+                  "global-builtin",
+                  "color-functions",
+                  "mixed-decls",
+                  "abs-percent"
+                ]
+              }
+            }
           }
         }
       }
