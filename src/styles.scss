@@ -1,0 +1,5 @@
+/* You can add global styles to this file, and also import other style files */
+// Personalizzazioni PRIMA dell'import — altrimenti vengono ignorate
+// $primary: #1a5632;
+
+@import '../node_modules/bootstrap-italia/src/scss/bootstrap-italia.scss';
