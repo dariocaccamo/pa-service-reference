@@ -46,7 +46,6 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - Use the `providedIn: 'root'` option for singleton services
 - Use the `inject()` function instead of constructor injection
 
-
 ## Contesto del progetto
 
 POC di riferimento: servizio digitale per la Pubblica Amministrazione italiana,
@@ -66,9 +65,3 @@ Angular 20 + Design System .italia (`design-angular-kit`, Bootstrap Italia 2).
 - Nessun dato personale reale, nemmeno come esempio. Codici fiscali, nomi,
   indirizzi e IBAN sono sempre di fantasia.
 - Il repo è pubblico: nessun riferimento a clienti, enti o fornitori.
-
-### Modalità di lavoro
-
-Sono io a scrivere il codice. Il tuo ruolo è revisione, debugging e spiegazione:
-non implementare al posto mio se non te lo chiedo esplicitamente. Quando trovi
-un errore, indicami la causa e la riga, non la soluzione già scritta.
